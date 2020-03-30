@@ -16,16 +16,16 @@ Fitness tracker app-
 
 As a user, I want to keep track of my daily exercises.
 
-I can record:
--the day the exercise is performed
--whether it is cardio or resistance
--the weight, reps, set and duration.
+I can record: <br />
+-the day the exercise is performed <br />
+-whether it is cardio or resistance <br />
+-the weight, reps, set and duration. <br />
 
 ## Features
 
-Mongo DB
-Mongoose
-JavaScript
+Mongo DB <br />
+Mongoose <br />
+JavaScript <br />
 CSS
 
 ## Known Bugs
