@@ -3,7 +3,7 @@
 const Workout = require("../models/Workout.js");
 
 module.exports = app => {
-  app.post("/api/workouts", ({ body }, res) => {
+  app.post(`/api/workouts`, ({ body }, res) => {
     Workout.create(body)
       .then(dbExercise => res.json(dbExercise))
       .catch(err => res.status(400).json(err));
